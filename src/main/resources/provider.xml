@@ -15,7 +15,7 @@
 	<dubbo:service interface="com.gmall.service.UserService"
 		ref="userService" />
 	 
-	
+	<dubbo:monitor address="127.0.0.1:7070"></dubbo:monitor>
 	
 	
 		
